@@ -1,0 +1,22 @@
+package it.polimi.ingsw.LM34.Enums.Controller;
+
+/**
+ * List of all {@link it.polimi.ingsw.LM34.Controller.AbstractGameContext s} by which the game logic is constituted of
+ */
+public enum ContextType {
+    ACTION_SLOT_CONTEXT,
+    CHURCH_REPORT_CONTEXT,
+    END_GAME_CONTEXT,
+    HARVEST_AREA_CONTEXT,
+    PRODUCTION_AREA_CONTEXT,
+    RESOURCE_INCOME_CONTEXT,
+    TOWERS_CONTEXT,
+    INCREASE_PAWNS_VALUE_BY_SERVANTS_CONTEXT,
+    RESOURCE_EXCHANGE_CONTEXT,
+    USE_COUNCIL_PRIVILEGE_CONTEXT,
+    MARKET_AREA_CONTEXT,
+    LEADER_CARDS_CONTEXT,
+    COUNCIL_PALACE_CONTEXT,
+    FAMILY_MEMBER_SELECTION_CONTEXT,
+    TURN_CONTEXT;
+}
